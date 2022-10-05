@@ -42,7 +42,7 @@ public:
 		int a;
 		cout << "ENTER AMOUNT TO WITHDRAW : \n";
 		cin >> a;
-		if( a < 0 && a > tot )
+		if( a > 0 && a < tot )
         {
             tot -= a;
             cout << "AVAILABLE BALANCE IS : " << tot;
